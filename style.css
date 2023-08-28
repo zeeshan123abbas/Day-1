@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    top: 200px;
+    /* z-index: 1; */
+    
+  
+}
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    /* position: relative; */
+    left: 700px;
+    top: 200px;
+ 
+
+  
+}
+.box-3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
